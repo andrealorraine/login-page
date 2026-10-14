@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html> 
+<head>  
+<meta charset="UTF-8"> <!--The HTML5 specification encourages web developers to use the 
+UTF-8 character set! --> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--<meta> – 
+Provides additional information about the webpage to the browser. 
+name="viewport" – Specifies that this setting controls how the webpage is displayed on 
+different screen sizes. 
+content="width=device-width" – Makes the width of the webpage match the width of the user's 
+device. 
+initial-scale=1.0 – Sets the initial zoom level to 100%.  --> 
+<title>Login Page</title> <!-- <title> – Defines the title of the webpage. 
+Login Page – The text displayed on the browser tab. 
+</title> – Closes the title element.--> 
+<link rel="stylesheet" href="style5.css">  
+<!-- <link> – Connects the HTML document to an external resource. 
+rel="stylesheet" – Indicates that the external resource is a CSS stylesheet. 
+href="style5.css" – Specifies the location or filename of the CSS file.--> 
+</head> <!-- closes the head section--> 
+<body>  <!-- contains all the visible content of the web page--> 
+<div class="login-container">  <!--This ends the container that holds the login box.--> 
+<div class="login-box"> 
+<!--div> – Creates a division or section in the webpage. 
+class="login-container" – Assigns the name login-container to this division.--> 
+<h2>Login</h2> 
+<form> <!--form collects information entered by the user.--> 
+<div class="input-group">  
+<label for="username"><i class="user"></i> Username</label> 
+<input type="text" id="username" placeholder="Username"> 
+</div> 
+<div class="input-group"> <!--class="input-group" allows CSS to style the group.--> 
+<label for="password"><i class="lock"></i>Password</label> <!--Creates a text label for an 
+input field.--> 
+<input type="password" id="password" placeholder="Password"> 
+<!--<input> creates an input field. 
+type="password" hides the characters entered by the user. 
+id="password" uniquely identifies the password field. 
+placeholder="Password" displays a guide inside the field.--> 
+</div> 
+<div class="remember-me"> 
+<input type="checkbox" id="remember"> 
+<label for="remember">Remember me</label> 
+</div> 
+<button type="submit">Login</button> 
+<div class="footer"> 
+<a href="#">Forgot Password?</a> 
+<p>Don't have an account? <a href="#">Sign up</a></p> 
+</div> 
+</form> 
+</div> 
+</div> 
+</body> 
+</html> 

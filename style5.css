@@ -1,0 +1,111 @@
+*{ 
+margin: 0;  
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Georgia', serif; 
+} 
+ 
+     
+ 
+body { 
+    margin: 0;
+    min-height: fit-content;
+} 
+ 
+.login-container { 
+    position: relative; 
+    width: 100vw; 
+    height: 100vh; 
+
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.login-container::before {
+    content: "";
+    position: absolute;
+    inset: -10px;
+
+    background-image: url('500.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    filter: blur(4px);
+}
+
+ 
+.login-box { 
+        background-color: rgba(255, 255, 255, 0.45);
+    padding: 40px;
+    border-radius: 15px;
+    backdrop-filter: blur(25px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    text-align: center;
+} 
+ 
+h2 { 
+    margin-bottom: 20px; 
+} 
+ 
+.input-group { 
+    margin-bottom: 20px; 
+} 
+ 
+.input-group label { 
+    display: block; 
+    margin-bottom: 5px; 
+} 
+ 
+.input-group input { 
+    width: 100%; 
+    padding: 10px; 
+    border-radius: 5px; 
+    border: none; 
+    background-color: rgba(255, 255, 255, 0.3); 
+    color: rgb(0, 0, 0); 
+} 
+ 
+button { 
+    width: 100%; 
+    padding: 10px; 
+    background-color: #640f32; 
+    border: none; 
+    border-radius: 5px; 
+    color: white; 
+    cursor: pointer; 
+    font-size: 16px; 
+} 
+ 
+button:hover { 
+    background-color: #b93171; 
+} 
+ 
+.footer { 
+    margin-top: 20px; 
+} 
+ 
+.footer a { 
+    color: rgb(235, 231, 231); 
+    text-decoration: none; 
+} 
+ 
+.footer a:hover { 
+    text-decoration: underline; 
+} 
+ 
+.footer p { 
+    margin-top: 10px; 
+} 
+.remember-me { 
+display: flex; 
+align-items: center; 
+margin-bottom: 20px; 
+} 
+.remember-me input { 
+margin-right: 10px; 
+}
